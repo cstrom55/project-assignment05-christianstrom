@@ -1,12 +1,10 @@
 package se.nackademin.examination.examination_jacoco;
 
 public class ResultFromInputs {
-	
 	private int resultForNameLenght = 0;
 	private int resultForGender = 0;
 	private int resultForAge = 0;
 	private int resultForHomeCity = 0;
-	
 	
 	public int getResultForNameLenght() {
 		return resultForNameLenght;
@@ -32,8 +30,4 @@ public class ResultFromInputs {
 	public void setResultForHomeCity(int resultForHomeCity) {
 		this.resultForHomeCity = resultForHomeCity;
 	}
-	
-	
-	
-
 }
